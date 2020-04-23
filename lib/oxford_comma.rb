@@ -6,6 +6,15 @@ require "pry"
 #   array.join(', ')
   
 # end
+
+
+
+John Mary Peter 
+
+John
+
+# John and Mary
+# [John, Mary, Peter, "and Samantha"]
   def oxford_comma(array)
   if array.length == 1
      return converted_string = array.join  
