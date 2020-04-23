@@ -1,6 +1,4 @@
-def oxford_comma(array)
- array.join(" kiwi ")
-end
+
 
 # def oxford_comma(array)
 #   array.join(' and ') if array.size < 3
