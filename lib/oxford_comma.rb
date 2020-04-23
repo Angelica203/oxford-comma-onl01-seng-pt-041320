@@ -13,7 +13,7 @@ require "pry"
      return converted_string = array.join(' and ')  
    else
      binding.pry 
-     array[-1].insert(0, "and ")
+     array[-1].insert(0,"and ")
       # converted_string = array[0..(array_including-2)].join (', ')  
       # converted_string = converted_string + (', and ') + array[-1]  
    end
