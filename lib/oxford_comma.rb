@@ -14,7 +14,7 @@ require "pry"
    else
      binding.pry 
      array[-1].insert(0,"and ") #adds "and" to last position in array
-     array.join(" , ")
+     array.join(", ")
       # converted_string = array[0..(array_including-2)].join (', ')  
       # converted_string = converted_string + (', and ') + array[-1]  
    end
