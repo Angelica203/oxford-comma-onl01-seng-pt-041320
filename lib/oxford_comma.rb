@@ -12,10 +12,12 @@ require "pry"
    elsif array.length == 2
      return converted_string = array.join(' and ')  
    else
-     binding.pry 
+     
      array[-1].insert(0,"and ") #adds "and" to last position in array
      return array.join(", ")
-      # converted_string = array[0..(array_including-2)].join (', ')  
-      # converted_string = converted_string + (', and ') + array[-1]  
+      
    end
 end
+
+# converted_string = array[0..(array_including-2)].join (', ')  
+      # converted_string = converted_string + (', and ') + array[-1]  
