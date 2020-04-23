@@ -10,7 +10,7 @@ require "pry"
   if array.length == 1
      return converted_string = array.join  
    elsif array.length == 2
-     return converted_string = array.join (' and ')  
+     return converted_string = array.join(' and ')  
    else
      binding.pry 
       # converted_string = array[0..(array_including-2)].join (', ')  
